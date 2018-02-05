@@ -46,7 +46,7 @@ chef-client
 Use the verbose logging that is built into the chef-client:
 
 ``-l LEVEL``, ``--log_level LEVEL``
-   The level of logging to be stored in a log file.
+   The level of logging to be stored in a log file. Valid levels auto, debug, info, warn, error, fatal.
 
 ``-L LOGLOCATION``, ``--logfile c``
    The location of the log file. This is recommended when starting any executable as a daemon. Default value: ``STDOUT``.
